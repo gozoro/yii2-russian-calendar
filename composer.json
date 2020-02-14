@@ -1,0 +1,26 @@
+{
+	"name": "gozoro/yii2-russian-calendar",
+	"description": "Производственный календарь РФ на основе xmlcalendar.ru. Russian working calendar based on the xmlcalendar.ru.",
+	"keywords":["Russian", "calendar", "working", "production", "working-calendar", "production-calendar",
+				"производственный", "календарь", "РФ", "производственный календарь", "производственный календарь РФ",
+				"xmlcalendar", "xmlcalendar.ru", "yii2", "component", "yii2-extension"],
+	"homepage": "https://github.com/gozoro/yii2-russian-calendar",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Gozoro",
+			"email": "gozoro@yandex.ru"
+		}
+	],
+	"require": {
+		"php": ">=5.5.9",
+		"yiisoft/yii2": "~2.0.0",
+		"gozoro/russian-calendar": "~0.0.1"
+	},
+	"autoload": {
+		"psr-4": {
+			"gozoro\\russian_calendar\\": "src"
+		}
+	}
+}
